@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Center(
       child: Padding(
-        padding: const EdgeInsets.all(5.0),
+        padding: const EdgeInsets.all(2.0),
         child: SizedBox(
           width: width * 0.30,
           height: height * 0.3,
