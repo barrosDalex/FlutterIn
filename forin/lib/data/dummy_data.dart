@@ -1,4 +1,4 @@
-import 'package:forin/models/Product.dart';
+import '../models/Product.dart';
 
 final dummyProducts = [
   Product(
