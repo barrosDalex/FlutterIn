@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../providers/counter.dart';
 
 class CounterPage extends StatefulWidget {
@@ -26,7 +25,7 @@ class _CounterPageState extends State<CounterPage> {
               setState(() {
                 provider?.state.inc();
               });
-              print(provider?.state.value);
+              // print(provider?.state.value);
             },
             icon: const Icon(Icons.add),
           ),
@@ -35,7 +34,7 @@ class _CounterPageState extends State<CounterPage> {
               setState(() {
                 provider?.state.dec();
               });
-              print(provider?.state.value);
+              // print(provider?.state.value);
             },
             icon: const Icon(Icons.remove),
           ),
