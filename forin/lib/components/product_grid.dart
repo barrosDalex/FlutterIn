@@ -1,10 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:forin/components/product_grid_item.dart';
 import 'package:provider/provider.dart';
-import '../models/product.dart';
-import '../models/product_list.dart';
+import 'package:forin/components/product_grid_item.dart';
+import 'package:forin/models/product.dart';
+import 'package:forin/models/product_list.dart';
 
 class ProductGrid extends StatelessWidget {
   final bool showFavoriteOnly;
