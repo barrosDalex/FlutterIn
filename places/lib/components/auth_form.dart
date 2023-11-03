@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:file_picker/file_picker.dart';
 import 'package:places/components/user_image_picker.dart';
 import 'package:places/core/models/auth_form_data.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class _AuthFormState extends State<AuthForm> {
   final _formKey = GlobalKey<FormState>();
   final _formData = AuthFormData();
 
-  void _handleImagePick(File image) {
+  void _handleImagePick(PlatformFile image) {
     _formData.image = image;
   }
 
@@ -28,7 +29,7 @@ class _AuthFormState extends State<AuthForm> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(msg),
-        backgroundColor: Theme.of(context).errorColor,
+        backgroundColor: Theme.of(context).primaryColor,
       ),
     );
   }

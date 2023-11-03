@@ -1,12 +1,14 @@
 import 'dart:io';
 
+import 'package:file_picker/file_picker.dart';
+
 enum AuthMode { signup, login }
 
 class AuthFormData {
   String name = '';
   String email = '';
   String password = '';
-  File? image;
+  PlatformFile? image;
   AuthMode _mode = AuthMode.login;
 
   bool get isLogin {

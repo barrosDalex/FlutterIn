@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:file_picker/file_picker.dart';
 import 'package:places/core/models/chat_user.dart';
 import 'package:places/core/services/auth/auth_mock_service.dart';
 
@@ -11,7 +12,7 @@ abstract class AuthService {
     String name,
     String email,
     String password,
-    File? image,
+    PlatformFile? image,
   );
 
   Future<void> login(

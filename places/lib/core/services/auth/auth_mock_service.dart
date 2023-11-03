@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'dart:async';
 import 'dart:math';
+import 'package:file_picker/file_picker.dart';
 import 'package:places/core/models/chat_user.dart';
 import 'package:places/core/services/auth/auth_service.dart';
 
@@ -37,7 +38,7 @@ class AuthMockService implements AuthService {
     String name,
     String email,
     String password,
-    File? image,
+    PlatformFile? image,
   ) async {
     final newUser = ChatUser(
       id: Random().nextDouble().toString(),
