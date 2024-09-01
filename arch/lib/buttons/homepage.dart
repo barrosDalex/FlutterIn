@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:printer/buttons/widgets/container_button.dart';
 import 'package:printer/buttons/widgets/container_circle_button.dart';
+import 'package:printer/buttons/widgets/container_elevated_button.dart';
 import 'package:printer/buttons/widgets/container_icon_button.dart';
 import 'package:printer/buttons/widgets/container_icon_text_button.dart';
+import 'package:printer/buttons/widgets/container_outline_button.dart';
 import 'package:printer/buttons/widgets/container_text_button.dart';
 
 class Homepage extends StatelessWidget {
@@ -27,6 +29,10 @@ class Homepage extends StatelessWidget {
               ContainerIconTextButton(),
               SizedBox(height: 15),
               ContainerTextButton(),
+              SizedBox(height: 15),
+              ContainerOutlineButton(),
+              SizedBox(height: 15),
+              ContainerElevatedButton(),
             ],
           ),
         ),
