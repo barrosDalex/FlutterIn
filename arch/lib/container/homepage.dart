@@ -6,6 +6,10 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('asda'),
+        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.print))],
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
