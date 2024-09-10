@@ -14,7 +14,7 @@ class Homepage extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: Text('asda')),
         body: PdfPreview(
-          build: (format) => _generatePdf(format, 'asda'),
+          build: (format) => _generatePdf(format, 'asda 192.168.2.200'),
         ),
       ),
     );
