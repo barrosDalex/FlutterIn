@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'fullscreens_layout/stack_screen.dart';
+import 'inputs/part_1.dart';
 
 void main() {
   runApp(const MyApp());
