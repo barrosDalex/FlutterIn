@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'fullscreens_layout/column_row_screen.dart';
+import 'fullscreens_layout/stack_screen.dart';
 
 void main() {
   runApp(const MyApp());
