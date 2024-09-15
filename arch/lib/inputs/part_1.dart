@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:printer/inputs/widgets/rounded_text_filed.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -72,6 +73,10 @@ class Homepage extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(
+                height: 20,
+              ),
+              RoundedTextField(),
             ],
           ),
         ),
